@@ -1,1 +1,1 @@
-# script just for install edge on Debian based
+# script to install Edge on Debian based.
