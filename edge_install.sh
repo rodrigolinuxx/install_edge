@@ -28,7 +28,7 @@ do
 			echo 'deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main' > /etc/apt/sources.list.d/microsoft-edge-dev.list
 			rm microsoft.gpg
 			apt update
-			apt install microsoft-edge-dev
+			apt install microsoft-edge-dev -y
 			exit 0
             ;;
         "rpm")
@@ -36,7 +36,7 @@ do
 			rpm --import https://packages.microsoft.com/keys/microsoft.asc
 			dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
 			mv /etc/yum.repos.d/packages.microsoft.com_yumrepos_edge.repo /etc/yum.repos.d/microsoft-edge-dev.repo
-			dnf install microsoft-edge-dev
+			dnf install microsoft-edge-dev -y
 			exit 0
             ;;
         "Quit")
