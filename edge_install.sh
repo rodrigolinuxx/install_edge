@@ -3,10 +3,10 @@
 ##########################################################################
 # Autor:     Rodrigo Costa                           			 #
 # Contato:   rodrigo.costa@outlook.it                			 #
-# Link:      https://github.com/rodrigolinux         			 #
+# Link:      https://github.com/rodrigolinux/install_edge		 #
 # Data:      06/04/2021                              			 #
 # Licença:   GPLv3                                   			 #
-# Sobre:     Script que ao ser executado solicita se deseja isntalar     #
+# Sobre:     Script que ao ser executado solicita se deseja instalar     #
 #            o navegador Edge no formato .deb ou .rpm                    #
 ##########################################################################
 #
