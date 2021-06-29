@@ -6,8 +6,8 @@
 # Link:      https://github.com/rodrigolinux         			 #
 # Data:      06/04/2021                              			 #
 # Licença:   GPLv3                                   			 #
-# Sobre:     Script que ao ser executado exibe uma janela solicitando    #
-#            se deseja instalar o navegador Edge no formato .deb ou .rpm #
+# Sobre:     Script que ao ser executado solicita se deseja isntalar     #
+#            o navegador Edge no formato .deb ou .rpm                    #
 ##########################################################################
 #
 if [[ $EUID -ne 0 ]]; then
