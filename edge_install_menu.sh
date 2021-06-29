@@ -6,6 +6,7 @@
 # Link:      https://github.com/rodrigolinux/install_edge		 #
 # Data:      06/04/2021                              			 #
 # Licença:   GPLv3                                   			 #
+# Arquivo:   edge_install_menu.sh					 #
 # Sobre:     Script que ao ser executado exibe uma janela (em Dialog)    #
 #            solicitando qual formato do navegador Edge deseja instalar  #
 ##########################################################################
