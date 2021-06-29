@@ -1,10 +1,14 @@
 #!/bin/bash
 #
-######################################################
-# Autor:     Rodrigo Costa                           #
-# Contato:   rodrigo.costa@outlook.it                #
-# Link:      https://github.com/rodrigolinuxx        #
-######################################################
+##########################################################################
+# Autor:     Rodrigo Costa                           			 #
+# Contato:   rodrigo.costa@outlook.it                			 #
+# Link:      https://github.com/rodrigolinux         			 #
+# Data:      06/04/2021                              			 #
+# Licença:   GPLv3                                   			 #
+# Sobre:     Script que ao ser executado exibe uma janela solicitando    #
+#            se deseja instalar o navegador Edge no formato .deb ou .rpm #
+##########################################################################
 #
 if [[ $EUID -ne 0 ]]; then
    echo "Deve ser executado como root." 
